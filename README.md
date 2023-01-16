@@ -1,1 +1,1 @@
-[Link to my portfolio](nicholasklee.github.io/Me.html)
+[Link to my portfolio](www.nicholasklee.github.io/Me.html)
