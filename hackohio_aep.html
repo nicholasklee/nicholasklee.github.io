@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Nicholas Lee</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body style="background-color:black;">
+<section class="header">
+<nav>
+<div class ="nav-home">
+<ul>
+<li><a href = "https://nicholasklee.github.io/aboutme">Home</a></li>
+</ul>
+</div>
+<div class="nav-links">
+<ul>
+<li><a href = "https://nicholasklee.github.io/projects">Projects</a></li>
+<li><a href = "mailto:niccholaslee@gmail.com">Contact</a></li>
+<li><a href = "https://www.linkedin.com/in/nicholas-lee-84b902185/">Connect</a></li>
+</ul>
+</div>
+</nav>
+
+<div style="text-align:center"> 
+    <video id="video1" width="1500">
+      <source src="images/aep_hack.mp4" type="video/mp4">
+      <source src="images/aep_hack.ogg" type="video/ogg">
+    </video>
+</div>
+<div style="text-align:center"> 
+    <button class="button" onclick="playPause()">Play/Pause</button>
+    <br><br>
+  </div> 
+  
+  <script> 
+  var myVideo = document.getElementById("video1"); 
+  
+  function playPause() { 
+    if (myVideo.paused) 
+      myVideo.play(); 
+    else 
+      myVideo.pause(); 
+  } 
+  </script> 
+  
+
+</section>
+<style>
+    .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #1e4b82;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {background-color: #85a1db}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	offset: 300,
+    	duration: 500
+    	
+    });
+  </script>
+</body>
+</html>
