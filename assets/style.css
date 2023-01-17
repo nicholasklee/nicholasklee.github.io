@@ -97,8 +97,10 @@ flex: 1;
     padding: 8px 12px;
     position: relative;
 }
+
+/* Home word color */
 .nav-home ul li a{
-    color:#fff;
+    color:rgb(77, 141, 225);
     text-decoration: none;
     font-size: 25px;
     
@@ -107,7 +109,7 @@ flex: 1;
     content: '';
     width: 0;
     height: 2px;
-    background: #0080ff;
+    background: #ffffff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -120,14 +122,18 @@ flex: 1;
 	flex: 1;
 	text-align: right;
 }
+
 .nav-links ul li {
+  color:rgb(255, 255, 255);
 	list-style: none;
 	display: inline-block;
 	padding: 8px 20px;
 	position: relative;
 }
+
+/* Links word color */
 .nav-links ul li a{
-	color:#fff;
+	color:rgb(77, 141, 225);
 	text-decoration: none;
 	font-size:25px;
 	
@@ -136,7 +142,7 @@ flex: 1;
 	content: '';
 	width: 0;
 	height: 2px;
-	background: #0080ff;
+	background: #ffffff;
 	display: block;
 	margin: auto;
 	transition: 0.5s;
@@ -242,7 +248,7 @@ flex: 1;
     transition: 0.5s;
 }
 
-.volu-links ul li:hover::after{
+.volu-links ul li:ƒ::after{
     width: 100%
 }
 
@@ -265,81 +271,7 @@ flex: 1;
 	}
 }
 
-.hvr-bounce-in {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
 
-.hvr-glow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-}
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-}
 
-a {
-  background-image: linear-gradient(
-    to right,
-    #54b3d6,
-    #54b3d6 50%,
-    rgb(255, 255, 255) 50%
-  );
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-a:before{
-  content: '';
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
- background-position: 0;
-}
-
-a:hover::before{
-  width: 100%;
-}
-
-/* Presentational Styles */
-body {
-  display: grid;
-  font-family: 'Poppins', sans-serif;
-  font-size: 27px;
-  font-weight: 700;
-  height: 100vh;
-  place-items: center;
-}
 
 
