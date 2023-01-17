@@ -6,9 +6,6 @@
     box-sizing: border-box;
   }
 
-  body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-  }
 
 .column {
     float: left;
