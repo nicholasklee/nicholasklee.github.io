@@ -30,49 +30,20 @@
 </nav>
 
 <div style="text-align:center"> 
-    <video id="video1" width="800">
+  <video width="800" controls>
       <source src="images/aep_hack.mp4" type="video/mp4">
       <source src="images/aep_hack.ogg" type="video/ogg">
     </video>
 </div>
-<div style="text-align:center"> 
-    <button class="button" onclick="playPause()">Play/Pause</button>
     <br><br>
   </div> 
   
   <script> 
-  var myVideo = document.getElementById("video1"); 
-  
-  function playPause() { 
-    if (myVideo.paused) 
-      myVideo.play(); 
-    else 
-      myVideo.pause(); 
-  } 
   </script> 
   
 
 </section>
 <style>
-    .button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #1e4b82;
-  border: none;
-  border-radius: 15px;
-}
-
-.button:hover {background-color: #85a1db}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 </style>
 <body>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
