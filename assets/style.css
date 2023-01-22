@@ -163,7 +163,7 @@ flex: 1;
 
 /* Home word color */
 .nav-home ul li a{
-    color:rgb(77, 141, 225);
+    color:rgb(77, 225, 144);
     text-decoration: none;
     font-size: 25px;
     
@@ -197,7 +197,7 @@ flex: 1;
 
 /* Links word color */
 .nav-links ul li a{
-	color:rgb(77, 141, 225);
+	color:rgb(77, 225, 144);
 	text-decoration: none;
 	font-size:25px;
 	
