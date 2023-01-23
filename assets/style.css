@@ -230,7 +230,6 @@ nav img {
 
 
 .nav-home {
-flex: 1;
     text-align: left;
 }
 
@@ -250,7 +249,6 @@ flex: 1;
 /* Home word color */
 
 .nav-links {
-	flex: 1;
 	text-align: right;
 }
 
@@ -259,7 +257,6 @@ flex: 1;
 	list-style: none;
 	padding-left: 5%;
   padding-right: 6%;
-
 }
 
 /* Links word color */
@@ -269,9 +266,18 @@ flex: 1;
 	font-size:25px;
 	
 }
+.nav-links ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: #ffffff;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
 
 .nav-links ul li:hover::after{
-	width: 100%
+	width: 110%
 }
 
 .text-box {
