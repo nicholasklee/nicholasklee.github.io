@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Nicholas Lee</title>
-<link rel="icon" type="image/x-icon" href="/images/code.ico">
+<link rel="icon" type="image/x-icon" href="/images/homelogo.ico">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,15 +16,21 @@
 <section class="header">
 <nav>
 <div class ="nav-home">
-<ul>
-<li><a href = "https://nicholasklee.github.io/aboutme">Home</a></li>
-</ul>
+<li><a href = "https://nicholasklee.github.io/aboutme"><img src="images/home_logo.png" alt="homelogo" class="home_logo" onContextMenu="return false"></a></li>
 </div>
 <div class="nav-links">
 <ul>
-<li><a href = "https://nicholasklee.github.io/projects">Projects</a></li>
-<li><a href = "mailto:niccholaslee@gmail.com">Contact</a></li>
-<li><a href = "https://www.linkedin.com/in/nicholas-lee-84b902185/">Connect</a></li>
+  <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+    <path
+          class="line top"
+          d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+    <path
+          class="line middle"
+          d="m 70,50 h -40" />
+    <path
+          class="line bottom"
+          d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+  </svg>
 </ul>
 </div>
 </nav>
@@ -52,6 +58,30 @@ to the society.
     <div class="text-box-languages" data-aos="fade-right">
         <h1 style="color:rgb(77, 225, 144)">Languages</h1>
         <div class="box_logo1">
+          <p>Java</p>
+          <p>C++</p>
+          <p>SQL</p>
+          <p>Python</p>
+          <p>HTML/CSS</p>
+          <p>Javascript</p>
+          <p>Dart</p>
+          <p>Git</p>
+          </div>
+          </div>
+          <div class="text-box-tech" data-aos="fade-right">
+            <h1 style="color:rgb(77, 225, 144)">Technologies</h1>
+            <div class="box_logo1">
+              <p>Android</p>
+              <p>iOS</p>
+              <p>Linux/UNIX</p>
+              <p>Flutter</p>
+              <p>React</p>
+              <p>Firebase</p>
+          </div>
+          </div>
+        </div>
+
+          <!---
         <img src="images/java_logo.png" alt="logo" class="language_logo" onContextMenu="return false">  
       </div>
       <div class="box_logo1">
@@ -72,7 +102,8 @@ to the society.
       <div class="box_logo1">
         <img src="images/dart_logo.png" alt="logo" class="language_logo" onContextMenu="return false">
       </div>
-    </div>
+    -->
+    <!--
     <div class="text-box-tech" data-aos="fade-right">
       <h1 style="color:rgb(77, 225, 144)">Technologies</h1>
       <div class="box_logo1">
@@ -94,6 +125,14 @@ to the society.
         <img src="images/firebase_logo.png" alt="logo" class="language_logo" onContextMenu="return false">  
       </div>
     </div>
+    -->
+
+  <div class = "box-social" data-aos="fade-left">
+    <p style = "color:rgb(77, 225, 144)">Be better everyday.</p>
+    <div class = "box.social_links">
+      <button class="glow-on-hover"><a href = "https://www.linkedin.com/in/nicholas-lee-84b902185/"><img src="images/linkedin_logo.png" class = "social_logo" ></button></a>
+      <button class="glow-on-hover"><a href = "mailto:niccholaslee@gmail.com"><img src="images/mail.png" class = "social_logo2" ></button></a>
+    </div>
   </div>
 
 </section>
@@ -111,8 +150,6 @@ body {
     	duration: 500
     	
     });
-
-    
-  </script>
+    </script>
 </body>
 </html>
