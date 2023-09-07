@@ -222,9 +222,10 @@
 }
 nav {
 	display: flex;
-	padding: 2% 6%;
+	padding: 3% 8%;
 	justify-content: space-between;
 	align-items: center;
+  flex-basis: auto;
 }
 nav img {
 	width: 150px;
@@ -250,35 +251,30 @@ nav img {
 
 /* Home word color */
 
-.nav-links {
-	text-align: right;
-}
-
-.nav-links ul li {
-  color:rgb(255, 255, 255);
-	list-style: none;
-	padding-left: 5%;
-  padding-right: 6%;
+.nav-links ul{
+  gap: 60px;
+  display: flex;
+	justify-content: space-between;
 }
 
 /* Links word color */
-.nav-links ul li a{
+.nav-links ul a{
 	color:rgb(77, 225, 144);
 	text-decoration: none;
 	font-size:25px;
 	
 }
-.nav-links ul li::after{
+.nav-links ul a::after{
 	content: '';
 	width: 0;
 	height: 2px;
 	background: #ffffff;
 	display: block;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
-.nav-links ul li:hover::after{
-	width: 110%
+.nav-links ul a:hover::after{
+	width: 100%
 }
 
 .text-box {
@@ -324,10 +320,22 @@ width:90%;
 	width: 90%;
 	font-size: 20px;
     color: #ffffff;
-    display: inline-block; 
-    vertical-align: top;
-    text-align: center;
     
+}
+
+.text-box-experience {
+	width: 100%;
+  padding-left: 8%;
+  padding-top: 5%;
+  padding-right: 25%;
+	font-size: 20px;
+    color: #ffffff;
+    display: inline-block; 
+    
+}
+
+.box_experience {
+  padding: 2%;
 }
 
 .text-box-four {
